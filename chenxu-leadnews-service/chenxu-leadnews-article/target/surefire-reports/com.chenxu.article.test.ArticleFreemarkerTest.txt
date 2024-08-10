@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.chenxu.article.test.ArticleFreemarkerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.221 s <<< FAILURE! - in com.chenxu.article.test.ArticleFreemarkerTest
+createStaticUrlTest  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.chenxu.article.service.impl.ApArticleServiceImpl] from ClassLoader [sun.misc.Launcher$AppClassLoader@75b84c92]
+Caused by: java.lang.NoClassDefFoundError: Lcom/chenxu/article/mapper/ApArticleConfigMapper;
+Caused by: java.lang.ClassNotFoundException: com.chenxu.article.mapper.ApArticleConfigMapper
+

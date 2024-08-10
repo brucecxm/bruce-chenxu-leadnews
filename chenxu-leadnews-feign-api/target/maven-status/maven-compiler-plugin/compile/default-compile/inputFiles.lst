@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\项目\chenxu-leadnews\chenxu-leadnews-feign-api\src\main\java\com\chenxu\apis\schedule\IScheduleClient.java
+C:\Users\Administrator\Desktop\项目\chenxu-leadnews\chenxu-leadnews-feign-api\src\main\java\com\chenxu\apis\wemedia\IWemediaClient.java
+C:\Users\Administrator\Desktop\项目\chenxu-leadnews\chenxu-leadnews-feign-api\src\main\java\com\chenxu\apis\article\IArticleClient.java
+C:\Users\Administrator\Desktop\项目\chenxu-leadnews\chenxu-leadnews-feign-api\src\main\java\com\chenxu\apis\article\fallback\IArticleClientFallback.java

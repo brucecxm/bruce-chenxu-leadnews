@@ -1,0 +1,29 @@
+server:
+  port: 51804
+
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.200.130
+      port: 27017
+      database: leadnews-history
+  kafka:
+    bootstrap-servers: 192.168.200.130:9092
+    consumer:
+      group-id: ${spring.application.name}
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  application:
+    name: leadnews-search
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+elasticsearch:
+  host: 192.168.200.130
+  port: 9200
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
